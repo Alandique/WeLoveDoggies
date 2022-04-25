@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peluqueria Canina WeLoveDoggies</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../asset/style.css">
 </head>
 <body class="contenedor">
@@ -22,20 +25,62 @@
         </nav>
     </header>
 
-<main class="cuerpo">
-    <section class="servicios">
-        <h2 class="tituloPagina">Servicios</h2>
-       <div class="listaDeServicios">
-         <ol>
-           <li><h4 class="servicio">Corte de raza</h4></li>
-           <li><h4 class="servicio">Corte higenico</h4></li>
-           <li><h4 class="servicio">Baño</h4></li>
-           <li><h4 class="servicio">Corte de uñas</h4></li>
-           <li><h4 class="servicio">Limpieza de oidos</h4></li>
-           <li><h4 class="servicio">Limpieza de glandulas</h4></li>
-         </ol>
-       </div>
-       
+<main class="cuerpoServicio">
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-75 m-auto" id="intro">
+        <h1 class="p-3 fs-1 ">Peluqueria canina para todas las necesidades de <span class="text-primary">Tus Mascotas<span/></h1>
+         <p class="p-3  fs-4">
+             <span class="text-primary">We Love Doggies</span> es la peluqueria donde tratamos a tus mascotas como si fueran parte de nuestra familia ayudamos a establecer el vinculo. mascota-humanao.       
+         </p>   
+        </section>
+    
+       <!--========================================================== -->
+                            <!-- TIPOS DE SERVICIOS-->
+        <!--========================================================== -->
+    
+    
+    <section class="w-100">
+        <div class="row w-75 mx-auto" id="servicios-fila-1">       
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="../asset/img/perro.jpg" alt="desarrollo"   width="180" height="160">
+    
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Corte de raza</h3>
+                    <p class="px-4">Cortes con estilo para que tu perro quede genial</p>
+                </div>
+    
+            </div>
+    
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                <img src="../asset/img/perro.jpg" alt="concepto" width="180" height="160">
+    
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Baño</h3>
+                    <p class="px-4">Baño donde enjabonamos tu perro de las orejas a la cola</p>
+                </div>
+            </div>   
+        </div>
+        
+        <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                <img src="../asset/img/perro.jpg" alt="comunicaciones" width="180" height="160">
+    
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Corte de uñas</h3>
+                    <p class="px-4">Nunca mas esos sillones desgarrados, dile adios a esas uñas largas</p>
+                </div>
+            </div>
+    
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="../asset/img/perro.jpg" alt="seo" width="180" height="160" >
+    
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Limpieza de glandulas</h3>
+                    <p class="px-4">Tu perro tiene los ojos manchados, su rabo sucio, ya no es mas un problema, nosotros nos encargamos!</p>
+                </div>
+            </div>   
+        </div>
+    </section>
+
 </main>
 
 <footer class="pie">
@@ -45,6 +90,9 @@
     </div>
     <p>Copyright &copy 2022 Alan Alonso</p>
 </footer>
-    
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

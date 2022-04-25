@@ -334,7 +334,10 @@ justify-content: space-around;
                   6px 6px 6px rgba(5, 5, 31, 0.8),
                   6px 6px 6px rgb(5, 5, 31, 0.8),
                   6px 6px 6px rgb(5, 5, 31, 0.8);
-
+    transition: font-size 2s;
+}
+.logo:focus{
+  font-size: 35px;
 }
 .logo img{
     height: 100px;
@@ -367,7 +370,10 @@ justify-content: space-around;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%2380c0c9' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
   
   }
+.cuerpoServicio{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%2380c0c9' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
 
+}
 .tarjeta{
     width: 200px;
     height: 330px;
@@ -381,17 +387,26 @@ justify-content: space-around;
     text-align: center;
     text-transform: uppercase;
     font-size: 25px;
+    background-image: linear-gradient(to bottom, blue, white);
 }
 .tarjeta__titulo--rojo{
     text-align: center;
     text-transform: uppercase;
     font-size: 35px;
     color: brown;
+    transition: font-size 2s;
+}
+.tarjeta__titulo--rojo:hover{
+  font-size: 50px;
 }
 .tarjeta p{
     margin-top: 10px;
     text-align: center;
     font-size: 20px;
+    
+}
+.oferta{
+  background-image: linear-gradient(to top, red , yellow);
 }
 
 .contenedorTarjetas{
@@ -430,32 +445,6 @@ justify-content: space-around;
     font-size: 16px;
   }
 
-.servicios{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left
-  }
-.servicios{
-  display: flex;
-  justify-content:left;
-}
-.fotoServicio{
-  display: flex;
-  justify-content: right;
-  padding-left: 100px;
-}
-
-.listaDeServicios{
-  padding: 5px 0px 0px 20px;
-}
-
-.listaDeServicios ol{
-  list-style: none;
-}
-
-.servicio{
-  font-size: 20px;
-}
 .boton{
     width: 100%;
     height: 40px;
@@ -589,5 +578,25 @@ justify-content: space-around;
     background: cornflowerblue;
     margin-top: 5px;
   }
+
+  
+
+#servicios-fila-2 {
+    width:100% !important;
+}
+#servicios-fila-1 {
+    width:100% !important;
+}
+
+.icono-wrap{
+    flex-wrap:wrap !important;
+    justify-content: center !important;
+    text-align: center;
+}
+
+
+ 
+
+
 
 }
