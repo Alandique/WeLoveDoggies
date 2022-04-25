@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-@media (max-width:425px){
+@media (max-width:768px){
 
 .contenedor{
     display: grid;
@@ -432,6 +432,11 @@ justify-content: space-around;
 
 .servicios{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: left
+  }
+.servicios{
+  display: flex;
   justify-content:left;
 }
 .fotoServicio{
@@ -451,7 +456,7 @@ justify-content: space-around;
 .servicio{
   font-size: 20px;
 }
-  .boton{
+.boton{
     width: 100%;
     height: 40px;
     color: #fff;
