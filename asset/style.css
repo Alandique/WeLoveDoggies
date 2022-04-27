@@ -4,6 +4,66 @@
     padding: 0;
 }
 
+.navbar{
+  min-height: 70px!important;
+  background-color:cornflowerblue!important;
+}
+.navbar-brand{
+  text-transform: uppercase!important;
+  color:black!important;
+  font-size: 25px!important;
+  text-shadow:  1px 1px 1px antiquewhite!important;
+  text-shadow:  1px 2px 1px antiquewhite!important;
+  text-shadow:  1px 3px 1px antiquewhite,
+                1px 4px 1px antiquewhite,
+                6px 6px 6px rgba(5, 5, 31, 0.8),
+                6px 6px 6px rgb(5, 5, 31, 0.8),
+                6px 6px 6px rgb(5, 5, 31, 0.8)!important;
+}
+.pie{
+  text-align: center;
+  padding: 5px;
+  color: white;
+  background: cornflowerblue;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media (max-width:768px){
 
 .contenedor{
@@ -15,7 +75,7 @@
                          "footer";
   }
 
-/* HEADER */
+/* HEADER
 
 .encabezado{
     grid-area: header;
@@ -67,7 +127,7 @@
     color: white;
 }
 
-/* MAIN */
+/* MAIN
 .cuerpo{
     grid-area:main;
     display: flex;
@@ -176,7 +236,7 @@
 .servicio{
   font-size: 20px;
 }
-  /*Estilos de la galeria*/
+  /*Estilos de la galeria
 .galeriaDeImagenes{
   width: 100%;
   height: 50%;
@@ -203,7 +263,7 @@ justify-content: space-around;
   height: 100px;
 }
 
-/*Estilos del modal*/
+/*Estilos del modal
 
 .modal{
   visibility: hidden;
@@ -278,7 +338,7 @@ justify-content: space-around;
 }
 
 
-/* FOOTER */
+/* FOOTER
 .pie{
     grid-area: footer;
     display: flex;
@@ -302,7 +362,7 @@ justify-content: space-around;
                              "footer footer";
       }
 
-      /* HEADER */
+      /* HEADER
 
 .encabezado{
     grid-area: header;
@@ -361,7 +421,7 @@ justify-content: space-around;
     color: white;
 }
 
-/* MAIN */
+/* MAIN
 .cuerpo{
     grid-area:main;
     display: flex;
@@ -465,7 +525,7 @@ justify-content: space-around;
     color: #4433ff
   }
 
-/*Estilos de la galeria*/
+/*Estilos de la galeria
 .galeriaDeImagenes{
   width: 100%;
   height: 50%;
@@ -492,7 +552,7 @@ justify-content: space-around;
   height: 100px;
 }
 
-/*Estilos del modal*/
+/*Estilos del modal
 
 .modal{
   visibility: hidden;
@@ -567,7 +627,7 @@ justify-content: space-around;
 }
 
 
-/* FOOTER */
+/* FOOTER
 .pie{
     grid-area: footer;
     display: flex;
@@ -593,10 +653,4 @@ justify-content: space-around;
     justify-content: center !important;
     text-align: center;
 }
-
-
- 
-
-
-
 }
