@@ -36,11 +36,6 @@
     text-transform: uppercase;
     font-size: 40px;
     color: $tituloOferta;
-    &.oferta{
-      margin-top: 10px;
-      text-align: center;
-      font-size: $tamanioFuente;
-    }
     animation: flash 3s infinite alternate;
 }
 @keyframes flash {
@@ -52,7 +47,11 @@
   }
 }
 
-
+.oferta{
+  margin-top: 10px;
+  text-align: center;
+  font-size: $tamanioFuente;
+}
 
 .tarjeta_animada{
   animation: jackInTheBox 3s infinite alternate;
