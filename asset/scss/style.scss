@@ -1,0 +1,67 @@
+@import "_variables" ;
+@import "_nav" ;
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pie{
+  text-align: center;
+  padding: 5px;
+  color: white;
+  background: $colorDeFondo;
+  margin-top: 5px;
+}
+/* MAIN */
+.cuerpo{
+    background-color: $fondoSecundario;
+    background-image: $fondo;
+  }
+
+
+.tarjeta__titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: $tamanioFuente;
+    p{
+      margin-top: 10px;
+      text-align: center;
+      font-size: 18px;
+  }
+}
+.tarjeta__titulo--rojo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: $tituloOferta;
+    &.oferta{
+      margin-top: 10px;
+      text-align: center;
+      font-size: $tamanioFuente;
+    }
+    animation: flash 3s infinite alternate;
+}
+@keyframes flash {
+  from {
+    width: 100%;
+  }
+  to{
+    width: 0;
+  }
+}
+
+
+
+.tarjeta_animada{
+  animation: jackInTheBox 3s infinite alternate;
+}
+@keyframes jackInTheBox {
+  from {
+    width: 100%;
+  }
+  to{
+    width: 100%;
+  }
+}
