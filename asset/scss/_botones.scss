@@ -1,0 +1,82 @@
+.boton {
+	width:200px;
+	height:50px;
+	background-color:white;
+	text-align:center;
+	color:black;
+	border-radius:20px;
+	border:1px solid black;
+  font-size: 20px;
+}
+
+.boton--enviar{
+	@extend .boton;
+	background-color:yellow;
+	color:black;
+  a{text-decoration: none;}
+  
+}
+
+.boton--oferta{
+	@extend .boton;
+	background-color:red;
+	color:yellow;
+}
+
+.boton--sobre-mi{
+    min-width: 130px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #2c0b8e;
+    background: #2c0b8e;
+    a{
+    text-decoration: none;}
+  }
+  .boton--sobre-mi:hover {
+    background: #fff;
+    color: #2c0b8e
+  }
+
+  .css-button-sliding-to-left--red {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #d90429;
+    color: #d90429;
+  }
+  .css-button-sliding-to-left--red:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-left--red:hover:after {
+    width: 100%;
+  }
+  .css-button-sliding-to-left--red:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #d90429;
+  }

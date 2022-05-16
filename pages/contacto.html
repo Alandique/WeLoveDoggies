@@ -49,74 +49,88 @@
 </header>
 
     <main class="cuerpo">
-<!-- Formulario 2-->
-<div class="pt-5">
-      <div class="container border-top border-primary pt-2" style="max-width: 500px" id="contenedor-formulario">
-        <div class="text-center mb-4" id="titulo-formulario">
-          <div><img src="../asset/img/huella.png" alt="" class="img-fluid ps-5"></div>
-          <h2>Contactanos</h2>
-          <p class="fs-5">Estamos para tus mascotas</p>
+<!-- Formulario -->
+<div class="contact-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="text-center mb-4 mt-3" id="titulo-formulario">
+                <div><img src="../asset/img/huella.png" alt="" class="img-fluid ps-5"></div>
+                <h2>Contactanos</h2>
+                <p class="fs-5">Estamos para tus mascotas</p>
+              </div>
+            </div>
         </div>
-  
-       
-  
-        <form   method="POST" data-netlify="true" action="#">     
-              <div class= "mb-3">           
-                <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
-              </div>
-   
-            
-              <div class="mb-3">            
-                <input type="input" class="form-control" id="name" name="name" placeholder="Caniche Toy">
-              </div>
-        
-  
-              <div class="mb-3">
-                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
-              </div>
-  
-            <div class="mb-3">       
-              <textarea class="form-control" name="message" id="message" rows="4"></textarea>
-            </div>
-  
-            <div class="mb-3">
-              <button type="submit" class=" btn btn-primary w-100 fs-5 mb-2">Enviar Mensaje</button>
-            </div>
-        </form>
-    
-    </div>
-  <div id="local">
-    <div class="mapaDeUbicacion">
-        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3291.4063135750957!2d-58.865498!3d-34.416433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6aa92ce7ea331518!2s%22We%20love%20doggies%22!5e0!3m2!1ses-419!2sar!4v1648254610109!5m2!1ses-419!2sar"style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-  <div class="wrapper">
-    <div class="animacionTexto">
-    <h2>Ubicados en Villa Rosa <span>|</span></h2></div>
-    <div class="ubication__info text-center">
-      <h3 class="mt-3" >Visitanos</h3>
-      <p class="px-lg-5">
-        Estamos ubicados en General Ibarra 1303, esquina Honorio Pueyrredon.
-      </p>
-    </div>
-    <div class=ubication__time>
-      <h3 class="text-center mb-3">Horarios</h3>
-      <div class="ubication__time-box text-md-left ms-md-3">
-        <p class="ubication__time-info">
-          <i class="far fa-clock"></i>
-            Lunes a viernes: 08:00 a 16:00
-        </p>            
-        <p class="ubication__time-info">
-          <i class="far fa-clock"></i>
-          Sabados: 08:00 a 18:00
-        </p>
-        <p class="ubication__time-info">
-          <i class="far fa-clock"></i>
-          Domingos y feriados: 09:00 a 12:00
-        </p>
-      </div>
 
-  </div>
-  </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="contact-form mb-5 mt-2">
+                <form   method="POST" data-netlify="true" action="#">     
+                  <div class= "mb-3">           
+                    <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+                  </div>
+       
+                
+                  <div class="mb-3">            
+                    <input type="input" class="form-control" id="name" name="name" placeholder="Caniche Toy">
+                  </div>
+            
+      
+                  <div class="mb-3">
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+                  </div>
+      
+                <div class="mb-3">       
+                  <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+                </div>
+      
+                <div class="mb-3">
+                  <button type="submit" class=" btn btn-primary w-100 fs-5 mb-2">Enviar Mensaje</button>
+                </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="map-area mt-2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3291.4063135750957!2d-58.865498!3d-34.416433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6aa92ce7ea331518!2s%22We%20love%20doggies%22!5e0!3m2!1ses-419!2sar!4v1648254610109!5m2!1ses-419!2sar"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="row">
+							<div class="col-md-4">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-map-marker"></span>
+			        		</div>
+			        		<div class="text">
+				            <p class="text-muted"><span class="text-primary"><img src="../asset/img/icon/location_pointer.png" alt="facebook"></a>Direccion:</span> Ibarra 1303, Villa Rosa Buenos Aires</p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-4">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-phone"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span class="text-primary"><img src="../asset/img/icon/telephone.png" alt="facebook"></a>Tel:</span> <a href="#">+ 11 55 5555 55</a></p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-4">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-paper-plane"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span class="text-primary"><img src="../asset/img/icon/sobre.png" alt="facebook"></a>Email:</span><a href="#">welovedoggies@info.com</a></p>
+				          </div>
+			          </div>
+							</div>
+							
+            </div>
+        </div>
+    </div>
+</div>
     </main>
 
 <footer class="pie">

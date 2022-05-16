@@ -1,1 +1,5 @@
-Se agregaron las keyword en la pagina de inicio y servicios
+WE LOVE DOGGIES
+
+
+Agregué Keywords, titulos y encabezados en todas las paginas 
+Agregué meta descripciones en cada una de las paginas
