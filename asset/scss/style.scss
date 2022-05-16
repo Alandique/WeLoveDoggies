@@ -1,5 +1,6 @@
 @import "_variables" ;
 @import "_reset";
+@import "_breakpoints";
 @import "_nav" ;
 @import "_footer";
 
@@ -63,6 +64,7 @@
 	color:black;
 	border-radius:20px;
 	border:1px solid black;
+  font-size: 20px;
 }
 
 .boton--enviar{
@@ -79,7 +81,35 @@
 	color:yellow;
 }
 
+.titulo_sobre-mi{
+  font-size: 23px;
+}
 
+.boton--sobre-mi{
+    min-width: 130px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #2c0b8e;
+    background: #2c0b8e;
+    a{
+    text-decoration: none;}
+  }
+  .boton--sobre-mi:hover {
+    background: #fff;
+    color: #2c0b8e
+  }
+
+.img_sobre_mi p{
+  font-size: 25px;
+}
 
 /*   Estilos de la galeria    */
 
@@ -154,41 +184,40 @@
   }
 }
 
-
-
-
-
-/* MEDIA QUERIES */
-@media (max-width:1200px){
-    #local {
-        flex-wrap: wrap;
-        padding-top: 10px;
-    }
-
-    .wrapper{
-      width: 90%;
-      margin: auto;
-      padding-top: 30px;
-    }
+.css-button-sliding-to-left--red {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #d90429;
+  color: #d90429;
+}
+.css-button-sliding-to-left--red:hover {
+  color: #fff;
+}
+.css-button-sliding-to-left--red:hover:after {
+  width: 100%;
+}
+.css-button-sliding-to-left--red:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #d90429;
 }
 
-@media (max-width:768px) {
-  #intro {
-      width: 90% !important;
-  }
-.carousel-inner  {
-    max-height: 25rem;
-}
-.servicios-fila{
-    width: 100% !important;
-    text-align: center;
-}
-}
 
-@media (max-width:576px) {
-  .icono-warp{
-    flex-wrap: wrap;
-    justify-content:center !important;
-
-  }
-}

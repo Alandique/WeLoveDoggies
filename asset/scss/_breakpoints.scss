@@ -1,0 +1,39 @@
+/* MEDIA QUERIES */
+@media (max-width:1200px){
+    #local {
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+
+    .wrapper{
+      width: 90%;
+      margin: auto;
+      padding-top: 30px;
+    }
+   
+}
+
+@media (max-width:768px) {
+  #intro {
+      width: 90% !important;
+  }
+.carousel-inner  {
+    max-height: 25rem;
+}
+.servicios-fila{
+    width: 100% !important;
+    text-align: center;
+}
+}
+
+@media (max-width:576px) {
+  .icono-warp{
+    flex-wrap: wrap;
+    justify-content:center !important;
+  }
+
+  .titulo_sobre-mi{
+      text-align: center;
+  }
+ 
+}

@@ -5,9 +5,13 @@
   .navbar-brand{
     text-transform: uppercase!important;
     color:black!important;
-    font-size: $tamanioFuente!important;
+    font-size: 2em;
     text-shadow:  1px 1px 1px antiquewhite!important;
     text-shadow:  1px 2px 1px antiquewhite!important;
     text-shadow:  1px 3px 1px antiquewhite!important;
+  }
+
+  .nav-item {
+    font-size: 30px!important;
   }
 }

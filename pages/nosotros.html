@@ -7,23 +7,26 @@
     <meta name="description" content="Peluqueria canina">
     <meta name="keywords" content="peluqueria, canina, perros, estilo, corte, limpieza">
     <title>Peluqueria Canina WeLoveDoggies</title>
+    <!-- Favicons -->
+    <link rel="icon" href="asset/img/home.png" >
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="../asset/css/style.css">
 </head>
-<body>
+<body class="">
     <header class="encabezado">
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="../asset/img/huella.png" alt="" width="55" height="40" class="logo d-inline-block align-text-top">
-                    We Love Doggies
-                  </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">We Love Doggies
+              <img src="../asset/img/huella.png" alt="" width="65" height="50" class="logo d-inline-block align-text-center m-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                   </li>
@@ -40,18 +43,30 @@
                     <a class="nav-link" aria-current="page" href="./contacto.html">Contacto</a>
                   </li>
                 </ul>
-              </div>
             </div>
-          </nav>
+        </div>
+    </nav>
 </header>
 
 <main class="cuerpo">
-    <p>Somos una compania familiar dedicada al cuidado de tus mascotas</p>
-    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, totam eligendi? Quod quos ipsum, ex expedita animi optio itaque quo fuga hic mollitia reprehenderit quaerat odio cumque natus porro illo!
-    Sequi ullam quo alias aut quos ratione. Tempore culpa numquam officiis excepturi doloremque quae voluptatibus quam quibusdam. Itaque ea, illum officiis neque exercitationem veniam consequatur doloribus odio? Praesentium, molestias expedita.
-    Doloremque saepe autem eveniet ab asperiores numquam neque commodi cum iste, illo, fuga quos sint repellat iure sunt hic odio magnam velit eos. Doloribus esse magni, accusantium eos eum reprehenderit.
-    Mollitia debitis accusamus possimus ratione tenetur, at facilis nisi quae aut fugit dolore totam. Aliquid praesentium harum quis exercitationem, dolor nesciunt corrupti repellendus reprehenderit quae ad, non, doloremque dolorem earum!
-    Officiis maxime cumque tenetur nobis adipisci aliquid dolor excepturi dignissimos natus nam in, quas doloribus labore nesciunt error a non, mollitia vitae deserunt laudantium nostrum quisquam ratione eius. Optio, dolorum?</p>
+<div class="container-fluid">
+  <div class="row w-100 mx-auto pt-4">
+      <div class="col-md-8 titulo_sobre-mi">
+          <h2>Sobre mi</h2>
+          <p class="text">Mi nombre es Adriano Fernandez, soy estudiante de la carrera de Veterinaria en la Universidad de Buenos Aires. Desde muy pequeño descubri mi pasion por los animales y con el paso de los años entendi que queria hacer algo por todas aquellas mascotas que nos brindan todo su amor dia tras dia.</p>
+          <p class="text"> Es por ello que me formé como Peluquero Canino en el Instituto Balcarce graduandome en el año 2017. Apartir de alli decidi que tenia que crear este emprendimiento.</p>
+          <p class="text">Luego de varios obstaculos de idas y veniadas, Elegi un nombre para mi emprendimiento, cree una marca y puse todo mi empeño y ganas en ello. Asi fue como nacio WeLoveDoggies, un proyecto que me brinda gran satisfaccion y me llena de experiencia y por supuesto enriquece mi alma.</p>
+          <p class="text">Por supuesto, el exito de We Love Doggies no seria nada sin la recomendacion y confianza de todos mis clientes. Es por ello que espero que este emprendimiento siga creciendo cada dia un poco mas.</p>
+          <button class="boton--sobre-mi"><a aria-current="page" href="../pages/galeria.html">Conoce mi trabajo</a></button>
+          
+      </div>
+      
+      <div class="img_sobre_mi col-md-4 text-center">
+          <img src="../asset/img/doctor2.jpg" class="rounded mx-auto d-block" width="80%" alt="Imagen Echinopsis spachiana">
+          <p><small class="text-muted">Adriano y Colin</small></p>
+      </div>
+  </div>
+</div>
 </main>
 
 <footer class="pie">
