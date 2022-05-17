@@ -12,7 +12,12 @@
     background-image: $fondo;
   }
 
-
+.tarjeta_horario{
+  width: 350px;
+  height: 300px;
+  background-color: $fondoHorarios;
+  border-radius: 20px;
+}
 .tarjeta__titulo {
     text-align: center;
     text-transform: uppercase;
@@ -43,18 +48,6 @@
   margin-top: 10px;
   text-align: center;
   font-size: $tamanioFuente;
-}
-
-.tarjeta_animada{
-  animation: jackInTheBox 3s infinite alternate;
-}
-@keyframes jackInTheBox {
-  from {
-    width: 100%;
-  }
-  to{
-    width: 100%;
-  }
 }
 
 .titulo_sobre-mi{
