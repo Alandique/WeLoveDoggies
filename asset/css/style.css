@@ -1,3 +1,9 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .boton, .boton--enviar, .boton--oferta {
   width: 200px;
   height: 50px;
@@ -93,7 +99,8 @@
 /* MEDIA QUERIES */
 @media (max-width: 1200px) {
   .map-area {
-    width: 100%;
+    width: 460px !important;
+    height: 375px;
   }
 }
 
@@ -109,7 +116,9 @@
     text-align: center;
   }
   .map-area {
-    width: 100%;
+    width: 420px !important;
+    height: 437px !important;
+    margin-bottom: 15px;
   }
 }
 
@@ -124,11 +133,21 @@
   .titulo_sobre-mi {
     text-align: center;
   }
+  .map-area {
+    width: 401px !important;
+    height: 375px;
+  }
+  .modal-content {
+    width: 90%;
+    margin-left: 20px;
+  }
 }
 
 .navbar {
   min-height: 70px !important;
   background-color: cornflowerblue !important;
+  position: -webkit-sticky !important;
+  position: sticky !important;
 }
 
 .navbar .navbar-brand {
@@ -152,7 +171,7 @@
 }
 
 .map-area {
-  width: 460px;
+  width: 630px;
   height: 437px;
   background-color: #fff;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
@@ -180,7 +199,6 @@
 /* MAIN */
 .cuerpo {
   background-color: #A4E5EE;
-  background-image: blue;
 }
 
 .tarjeta_horario {
@@ -243,18 +261,7 @@
   font-size: 25px;
 }
 
-/*   Estilos de la galeria    */
-#galeria .col-lg-4 {
-  margin: 0 !important;
-  padding: 25px;
-}
-
-#galeria .col-lg-4 img {
-  width: 100%;
-  height: 250px;
-}
-
-#galeria .col-lg-4 img:hover {
-  border: 5px solid #f7f7f7;
+#galeria a img:hover {
+  border: 5px solid #A4E5EE;
 }
 /*# sourceMappingURL=style.css.map */

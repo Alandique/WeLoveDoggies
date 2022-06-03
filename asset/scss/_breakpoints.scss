@@ -1,7 +1,8 @@
 /* MEDIA QUERIES */
 @media (max-width:1200px){
   .map-area{
-    width: 100%;
+    width: 460px!important;
+    height: 375px;
 }
 }
 
@@ -17,7 +18,9 @@
     text-align: center;
 }
 .map-area{
-  width: 100%;
+  width: 420px!important;
+  height: 437px!important;
+  margin-bottom: 15px;
 }
 }
 
@@ -30,5 +33,13 @@
   .titulo_sobre-mi{
       text-align: center;
   }
- 
+  .map-area{
+    width: 401px!important;
+    height: 375px;
+  }
+  .modal-content {
+    width: 90%;
+    margin-left: 20px;
+
+  }
 }

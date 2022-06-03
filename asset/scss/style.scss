@@ -1,3 +1,4 @@
+@import "_reset";
 @import "_variables" ;
 @import "_botones";
 @import "_breakpoints";
@@ -9,7 +10,6 @@
 /* MAIN */
 .cuerpo{
     background-color: $fondoSecundario;
-    background-image: $fondo;
   }
 
 .tarjeta_horario{
@@ -58,22 +58,9 @@
   font-size: 25px;
 }
 
-/*   Estilos de la galeria    */
-
-#galeria .col-lg-4 {
-  margin: 0 !important;
-  padding: 25px;
-  img{
-    width: 100%;
-    height: 250px;
-  }
-  img:hover {
-    border: 5px solid#f7f7f7;
-  }
+#galeria a img:hover{
+  border: 5px solid $fondoSecundario;
 }
-
-
-
 
 
 
