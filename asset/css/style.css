@@ -146,8 +146,6 @@
 .navbar {
   min-height: 70px !important;
   background-color: cornflowerblue !important;
-  position: -webkit-sticky !important;
-  position: sticky !important;
 }
 
 .navbar .navbar-brand {
@@ -263,5 +261,14 @@
 
 #galeria a img:hover {
   border: 5px solid #A4E5EE;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 500px;
+}
+
+.carousel-inner {
+  height: 500px;
 }
 /*# sourceMappingURL=style.css.map */
